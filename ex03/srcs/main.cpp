@@ -6,7 +6,7 @@
 /*   By: nwyseur <nwyseur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 18:12:15 by nwyseur           #+#    #+#             */
-/*   Updated: 2023/08/01 19:26:05 by nwyseur          ###   ########.fr       */
+/*   Updated: 2023/08/01 19:35:53 by nwyseur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,3 +44,5 @@ void funcnimp()
 {
 	test();
 } */
+
+// Bien penser a la difference entre objet / adresse / ref / pointeur
