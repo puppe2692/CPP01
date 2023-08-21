@@ -6,7 +6,7 @@
 /*   By: nwyseur <nwyseur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 16:43:59 by nwyseur           #+#    #+#             */
-/*   Updated: 2023/08/01 19:31:22 by nwyseur          ###   ########.fr       */
+/*   Updated: 2023/08/21 10:17:46 by nwyseur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class HumanB
 		HumanB(void);
 		~HumanB(void);
 		void		attack(void);
-		void		setWeapon(Weapon& weapon); // on veut passer une reference car si on passe Weapon weapon, on passe une copie
+		void		setWeapon(Weapon& weapon);
 
 	private :
 		std::string	_name;

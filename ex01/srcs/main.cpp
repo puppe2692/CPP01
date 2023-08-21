@@ -6,7 +6,7 @@
 /*   By: nwyseur <nwyseur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 14:34:06 by nwyseur           #+#    #+#             */
-/*   Updated: 2023/08/01 15:52:00 by nwyseur          ###   ########.fr       */
+/*   Updated: 2023/08/21 10:13:16 by nwyseur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ int	main(int argc, char **argv)
 	Horde = zombieHorde(N, name);
 	while (i < N)
 	{
-		Horde[i].announce(); // pas fleche car pas pointeur
+		Horde[i].announce();
 		i++;
 	}
 	delete [] Horde;

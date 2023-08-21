@@ -6,7 +6,7 @@
 /*   By: nwyseur <nwyseur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 16:32:21 by nwyseur           #+#    #+#             */
-/*   Updated: 2023/08/01 19:25:45 by nwyseur          ###   ########.fr       */
+/*   Updated: 2023/08/21 10:25:04 by nwyseur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,13 @@ Weapon::Weapon(std::string type) : _type(type)
 
 Weapon::Weapon(const Weapon& other)
 {
-	std::cout << " Copying weapon " << std::endl;
+	// std::cout << " Copying weapon " << std::endl;
 	_type = other._type;
 }
 
 Weapon::~Weapon(void)
 {
-	std::cout << "Destructing the weapon" << std::endl;
+	// std::cout << "Destructing the weapon" << std::endl;
 	return ;
 }
 
